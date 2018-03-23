@@ -1,0 +1,29 @@
+function scene2(){
+  //Acts as transition between scene1 and scene3
+  background(25);
+
+  fill(0,255,0);
+  noStroke();
+  textAlign(CENTER);
+  textSize(20);
+  textFont();
+  text('USERNAME: JOEL, Annual Income: $38,784'.substring(0, frameCount/2),width/2,50)
+  text('LOCATION: GREAT VICTORIA DESERT(SOUTH AUSTRALIA), YEAR: 2118'.substring(0, frameCount-125/2),width/2,100)
+  text('OBJECTIVE COMPLETE '.substring(0, frameCount-275/2),width/2,150)
+  text('LOADING NEW OBJECTIVE '.substring(0, frameCount-325/2),width/2,200)
+
+
+  ///////////////////BENHAM/////////////////////////
+      // The following function rotates the BENHAM disk, as the same rate as the framerate
+    push();
+    translate(width/2,height/2);
+    rotate(frameCount);
+    Benham(0,0,250);
+    pop();
+
+////////////////////////////////////////////////////
+
+  text('NEW OBJECTIVE: MAKE YOUR WAY TO THE CRASH SITE '.substring(0, frameCount-375/2),width/2,height-200)
+  text('PRESS (SPACE) TO START '.substring(0, frameCount-450/2),width/2,height-150)
+
+}
