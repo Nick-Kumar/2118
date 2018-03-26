@@ -1,5 +1,7 @@
-# Art-Interaction-in-New-Media-Major-Assignment
-*Assignment originally submitted on gitlab. Project imported here for future reference.*
+# 2118
+
+
+* Art Interaction in New Media Major AssignmentAssignment originally submitted on gitlab. Project imported here for future reference.*
 
 
 ### Specifications ###
